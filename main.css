@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px 0;
+}
+
+.nav__lists {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  color: white;
+}
+
+.main__bg {
+  background-image:
+    linear-gradient(45deg, rgba(0, 0, 0, 0.5)), url(./images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__wrapper {
+  padding: 166px 0 221px 0;
+}
+
+.hero__title {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hero__head {
+  font-size: 60px;
+  color: #b78601;
+  font-weight: 400;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 29px 0 26px 0;
+}
+
+.hero__desc {
+  color: #ffffff;
+  font-weight: 400;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 46px;
+}
+
+.hero__btn {
+  color: #ffffff;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 16px 63px;
+  background: transparent;
+  border-radius: 35px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.product__imgs {
+  display: flex;
+  gap: 29px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product__title {
+  padding: 140px 0 82px 178px;
+}
